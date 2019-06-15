@@ -1,11 +1,14 @@
 # initialize
-tellraw @a [{"text":"cutall loaded.","italic":true,"color":"green"}]
-scoreboard objectives add CutAll dummy
-scoreboard objectives add CutAll_isThrow dummy
-scoreboard objectives add CutAll_Tick dummy
-scoreboard objectives add CutAll_Sneak minecraft.custom:minecraft.sneak_time
-scoreboard objectives add CutAll_Sneak_Kp dummy
+#tellraw @a [{"text":"cutall loaded.","italic":true,"color":"green"}]
 
-execute as @a run scoreboard players set @s CutAll_Tick 0
-execute as @a run scoreboard players set @s CutAll_Sneak 0
-execute as @a run scoreboard players set @s CutAll_Sneak_Kp 0
+tellraw @a [{"text":"[debug] point 1","italic":true,"color":"red"}]
+
+scoreboard objectives add CAD_UsedWAxe minecraft.used:minecraft.wooden_axe
+scoreboard objectives add CAD_UsedSAxe minecraft.used:minecraft.stone_axe
+scoreboard objectives add CAD_UsedIAxe minecraft.used:minecraft.iron_axe
+scoreboard objectives add CAD_UsedGAxe minecraft.used:minecraft.golden_axe
+scoreboard objectives add CAD_UsedDAxe minecraft.used:minecraft.diamond_axe
+scoreboard objectives add CAD_SneakTime minecraft.custom:minecraft.sneak_time
+scoreboard objectives add CAD_Setting dummy
+
+scoreboard players set max_tree_size CAD_Setting 100
