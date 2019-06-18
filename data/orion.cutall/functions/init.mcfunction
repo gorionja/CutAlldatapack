@@ -1,6 +1,6 @@
 # ------------------------------------------------------------- #
 # init.mcfunction
-# auther:orion
+# author:orion
 # ------------------------------------------------------------- #
 #tellraw @a [{"text":"[debug] init","italic":true,"color":"red"}]
 

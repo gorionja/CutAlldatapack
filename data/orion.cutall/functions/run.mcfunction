@@ -1,6 +1,6 @@
 # ------------------------------------------------------------- #
 # run.mcfunction
-# auther:orion
+# author:orion
 # ------------------------------------------------------------- #
 #tellraw @a [{"text":"[debug] run","italic":true,"color":"red"}]
 
