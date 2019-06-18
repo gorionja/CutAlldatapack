@@ -1,5 +1,10 @@
-tellraw @a [{"text":"[debug] run","italic":true,"color":"red"}]
+# ------------------------------------------------------------- #
+# run.mcfunction
+# auther:orion
+# ------------------------------------------------------------- #
+#tellraw @a [{"text":"[debug] run","italic":true,"color":"red"}]
 
+### 木の計測サイズをリセット
 scoreboard players set current_tree_size CAD_Setting 0
 
 ### 斧を使用して木を破壊したことの検知
