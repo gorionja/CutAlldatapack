@@ -18,3 +18,6 @@ scoreboard objectives add CAD_Setting dummy
 
 ### 最大木測定サイズの設定
 scoreboard players set max_tree_size CAD_Setting 100
+
+### 葉の破壊フラグの設定（デフォルトはON）
+scoreboard players set dstry_leaves_flg CAD_Setting 1
