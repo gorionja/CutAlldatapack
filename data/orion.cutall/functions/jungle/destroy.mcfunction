@@ -10,3 +10,5 @@ setblock ~ ~ ~ minecraft:air destroy
 
 execute if score destroy_leaves_flg CAD_Setting matches 1 run function orion.cutall:jungle/detect_leaves
 function orion.cutall:jungle/is.max_tree_size.limit.exceeded
+
+function orion.cutall:jungle/use.auto.collect

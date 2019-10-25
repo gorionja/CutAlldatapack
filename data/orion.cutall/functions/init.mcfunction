@@ -16,6 +16,9 @@ scoreboard objectives add CAD_UsedDAxe minecraft.used:minecraft.diamond_axe
 scoreboard objectives add CAD_SneakTime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add CAD_Setting dummy
 
+### 自動アイテム収集
+scoreboard players set auto_collect_items CAD_Setting 0
+
 ### 最大木測定サイズの設定
 scoreboard players set max_tree_size CAD_Setting 100
 
