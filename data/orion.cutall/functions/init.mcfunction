@@ -20,4 +20,4 @@ scoreboard objectives add CAD_Setting dummy
 scoreboard players set max_tree_size CAD_Setting 100
 
 ### 葉の破壊フラグの設定（デフォルトはON）
-scoreboard players set dstry_leaves_flg CAD_Setting 1
+scoreboard players set destroy_leaves_flg CAD_Setting 1
