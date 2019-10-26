@@ -24,3 +24,9 @@ scoreboard players set max_tree_size CAD_Setting 100
 
 ### 葉の破壊フラグの設定（デフォルトはON）
 scoreboard players set destroy_leaves_flg CAD_Setting 1
+
+### 耐久度
+scoreboard players set decrease_durability CAD_Setting 1
+
+scoreboard objectives add CAD_Random dummy
+scoreboard objectives add CAD_Durability dummy
