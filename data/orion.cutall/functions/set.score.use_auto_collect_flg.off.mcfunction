@@ -1,1 +1,0 @@
-scoreboard players set use_auto_collect_flg CAD_Setting 0
