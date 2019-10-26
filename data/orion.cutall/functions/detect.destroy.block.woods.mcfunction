@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/detect.destroy.block.woods.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/detect.destroy.block.woods","italic":true,"color":"red"}]
+# ****************************************************************************** #
 ### 斧を使用して木を破壊したことの検知
 execute if score destroy_acacia_flg CAD_Setting matches 1 run function orion.cutall:detect.destroy.block.acacia
 execute if score destroy_birch_flg CAD_Setting matches 1 run function orion.cutall:detect.destroy.block.birch

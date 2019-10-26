@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/run.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/run","italic":true,"color":"red"}]
+# ****************************************************************************** #
 ### 木の計測サイズをリセット
 function orion.cutall:reset.score.current_tree_size
 

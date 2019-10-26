@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/_settings/set.score.destroy_block_flg.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/_settings/set.score.destroy_block_flg","italic":true,"color":"red"}]
+# ****************************************************************************** #
 tellraw @s [{"text":"\u00A7m                                                                                ","color":"dark_gray"}]
 tellraw @s ["",{"text":"[<- back]" ,"color":"blue","clickEvent":{"action":"run_command","value":"/function orion.cutall:_settings/settings"}},{"text":"                 破壊ブロックの詳細設定"}]
 tellraw @s [{"text":""}]

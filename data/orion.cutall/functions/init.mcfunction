@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/init.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/init","italic":true,"color":"red"}]
+# ****************************************************************************** #
 ### ロード時コメント
 tellraw @a ["",{"text":"CutAll loaded. ","italic":true,"color":"green"},{"text":"[Click]","color":"blue","clickEvent":{"action":"run_command","value":"/function orion.cutall:_settings/settings"}},{"text":" Open Settings"}]
 
@@ -29,8 +35,8 @@ execute unless score first_time CAD_Setting matches 10 run scoreboard players se
 ### 下方ブロック破壊の設定（0:OFF<デフォルト> 1:ON）
 execute unless score first_time CAD_Setting matches 10 run scoreboard players set destroy_under_blocks_flg CAD_Setting 0
 
-### 自動アイテム収集フラグの設定（OFF:0,ON:1,デフォルトはOFF）
-execute unless score first_time CAD_Setting matches 10 run scoreboard players set auto_collect_items CAD_Setting 0
+### 自動アイテム収集フラグの設定（0:OFF<デフォルト>,1:ON）
+execute unless score first_time CAD_Setting matches 10 run scoreboard players set use_auto_collect_flg CAD_Setting 0
 
 ### 葉の破壊フラグの設定（0:OFF 1:ON<デフォルト>）
 execute unless score first_time CAD_Setting matches 10 run scoreboard players set destroy_leaves_flg CAD_Setting 1

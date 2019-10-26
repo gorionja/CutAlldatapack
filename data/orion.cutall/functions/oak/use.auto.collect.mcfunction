@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/oak/use.auto.collect.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/oak/use.auto.collect","italic":true,"color":"red"}]
+# ****************************************************************************** #
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:oak_log"}}] run tag @s add auto_collect
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:oak_wood"}}] run tag @s add auto_collect
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:stripped_oak_log"}}] run tag @s add auto_collect

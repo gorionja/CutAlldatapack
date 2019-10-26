@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/jungle/destroy.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/jungle/destroy","italic":true,"color":"red"}]
+# ****************************************************************************** #
 function orion.cutall:calc.selecteditem.durability
 
 scoreboard players add current_tree_size CAD_Setting 1

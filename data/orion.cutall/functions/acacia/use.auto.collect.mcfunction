@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/acacia/use.auto.collect.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/acacia/use.auto.collect","italic":true,"color":"red"}]
+# ****************************************************************************** #
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:acacia_log"}}] run tag @s add auto_collect
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:acacia_wood"}}] run tag @s add auto_collect
 execute as @e[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:stripped_acacia_log"}}] run tag @s add auto_collect

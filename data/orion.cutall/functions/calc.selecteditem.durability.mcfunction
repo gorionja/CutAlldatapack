@@ -1,3 +1,9 @@
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/calc.selecteditem.durability.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/calc.selecteditem.durability","italic":true,"color":"red"}]
+# ****************************************************************************** #
 # エンチャント "耐久力"のための乱数取得用アマスタ召喚
 execute if entity @s[nbt={SelectedItem:{tag:{Enchantments:[{lvl:1s,id:"minecraft:unbreaking"}]}}}] run function orion.cutall:use.enchant.unbreaking.lv1
 execute if entity @s[nbt={SelectedItem:{tag:{Enchantments:[{lvl:2s,id:"minecraft:unbreaking"}]}}}] run function orion.cutall:use.enchant.unbreaking.lv2

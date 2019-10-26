@@ -1,4 +1,9 @@
-
+#> SPDX-License-Identifier: MIT
+# ****************************************************************************** #
+#> @File data/orion.cutall/dark_oak/detect_next_tree.mcfunction
+#> @Author ORiON
+#> tellraw @a [{"text":"[DEBUG] run data/orion.cutall/dark_oak/detect_next_tree","italic":true,"color":"red"}]
+# ****************************************************************************** #
 
 # Y +1 の探索
 execute positioned ~ ~1 ~ if block ~ ~ ~ #orion.cutall:dark_oak run function orion.cutall:dark_oak/destroy
