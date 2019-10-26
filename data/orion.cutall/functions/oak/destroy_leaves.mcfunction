@@ -1,8 +1,4 @@
-# ------------------------------------------------------------- #
-# oak/destroy_leaves.mcfunction
-# author:orion
-# ------------------------------------------------------------- #
-#tellraw @a [{"text":"[debug] oak/destroy_leaves","italic":true,"color":"red"}]
+
 
 setblock ~ ~ ~ minecraft:air destroy
 

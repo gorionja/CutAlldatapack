@@ -1,0 +1,1 @@
+scoreboard players set destroy_under_blocks_flg CAD_Setting 0

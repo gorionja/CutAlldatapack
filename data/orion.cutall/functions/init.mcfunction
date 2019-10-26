@@ -1,8 +1,4 @@
-# ------------------------------------------------------------- #
-# init.mcfunction
-# author:orion
-# ------------------------------------------------------------- #
-#tellraw @a [{"text":"[debug] init","italic":true,"color":"red"}]
+
 
 ### ロード時コメント
 tellraw @a [{"text":"cutall loaded.","italic":true,"color":"green"}]
