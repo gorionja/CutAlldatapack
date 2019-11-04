@@ -17,4 +17,4 @@ execute if score switch_sneaking_flg CAD_Setting matches 1 if score @s CAD_Sneak
 ### スコアボードからツールの耐久度へ代入
 function orion.cutall:assign.data.from.score.durability
 
-function orion.cutall:detect.use.axe/reset.use.axe
+function orion.cutall:reset.use.axe
