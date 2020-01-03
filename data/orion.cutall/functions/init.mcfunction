@@ -17,6 +17,7 @@ scoreboard objectives add CAD_SneakTime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add CAD_Setting dummy
 scoreboard objectives add CAD_Random dummy
 scoreboard objectives add CAD_Durability dummy
+scoreboard objectives add CAD_CV_Setting trigger
 
 ### 初回読み込みのフラグ
 execute unless score first_time CAD_Setting matches 10 run scoreboard players set first_time CAD_Setting 1

@@ -9,3 +9,7 @@ execute if score cutall CAD_Setting matches 1 run function orion.cutall:detect.u
 
 ### スニーク時間をリセット
 function orion.cutall:reset.score.sneaktime
+
+### triggerフック
+scoreboard players enable @a trigger_test 
+execute as @a run function orion.cutall:_trigger/hook
